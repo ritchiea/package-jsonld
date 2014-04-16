@@ -304,7 +304,6 @@ exports.context = {
     "name":                  "sch:name",
     "email":                 "sch:email",
     "version":               "sch:version",
-    "private":               "sch:private",
     "description":           "sch:description",
     "distribution":          "sch:distribution",
     "author":                "sch:author",
@@ -356,7 +355,7 @@ exports.schema = {
 
     name: { type: 'string' },
     version: { type: 'string' },
-    private: { type: 'string' },
+    private: { type: 'boolean' },
     license: { type: 'string' },
     description: { type: 'string' },
     contentRating: { type: 'string' },
